@@ -6,7 +6,7 @@ use PhpMqtt\Client\MqttClient;
 
 // Configuration
 $valid_api_key = 'your-secret-api-key';
-$mqtt_broker   = '192.168.1.11';
+$mqtt_broker   = 'localhost';
 $mqtt_port     = 1883;
 $mqtt_topic    = 'payments/processed';
 
